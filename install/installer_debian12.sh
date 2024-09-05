@@ -5,7 +5,7 @@ git config --global --add safe.directory /usr/local/aspen-discovery
 #Expects to be installed on Debian 10 Buster or later
 #Run as sudo ./installer_debian.sh
 apt-get update
-apt-get -y install gpg default-jdk-jre-headless default-jdk-jdk-headless apache2 certbot python3-certbot-apache mariadb-server apt-transport-https lsb-release ca-certificates curl zip
+apt-get -y install gpg default-jdk-headless default-jdk-headless apache2 certbot python3-certbot-apache mariadb-server apt-transport-https lsb-release ca-certificates curl zip
 
 # Override default OS PHP version
 php_vers="8.2"
